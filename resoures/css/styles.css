@@ -105,10 +105,10 @@ nav{
 
 .banner{
     background: url(../images/banner.jpg) no-repeat center top; 
-    /* display: block; */
+    display: block;
     
      /* background-position: center;  */
-    max-height: 400px;
+    height: 400px;
     width: 100%;
     background-size: cover;
     -webkit-background-size: cover;
@@ -118,6 +118,8 @@ nav{
      position: relative;   
       overflow: hidden; 
      background-attachment: fixed;
+     opacity: 1;
+    
     
 }
 /* end banner */
