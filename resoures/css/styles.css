@@ -159,6 +159,17 @@ nav {
 }
 
 
+/* values section */
+
+.valuesContent {
+    display: block;
+    width: 90%;
+}
+
+
+/* values section end */
+
+
 /* footer */
 
 footer {
