@@ -110,10 +110,38 @@ nav {
     list-style: none;
     /* margin-top: 20px ; */
     border: 2px solid red;
+ 
 }
 
 .main-nav li {
     display: inline-block;
+    color: black;
+   
+}
+
+.main-nav li:not(:last-child){
+    margin-right: 20px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+   color: black;
+    text-decoration: none;
+}
+
+.main-nav li.active a{
+    border: 2px solid yellow;
+    padding:  10px;
+    color: #ffffff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: var(--primary-color);
+}
+.active a{
+    color: #ffffff;
 }
 
 .banner {
@@ -169,12 +197,30 @@ nav {
 .valuesContent {
     display: block;
     width: 90%;
+    font-family: inherit;
    
+}
+
+.valuesContainer{
+    background-color: rgb(214, 236, 253, 0.2);
+    border: 2px solid blue;
+    width: auto;
+    display: block;
+    position: relative;
+    height: 100%;
 }
 
 .picSize {
     width: 100%;
-    height: 100%;
+    height: 500px;
+}
+
+.offCol{
+    padding: 0;
+    margin: 0 !important;
+}
+.icon{
+    color: var(--secoundary-color);
 }
 
 /* values section end */
