@@ -44,8 +44,10 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.main-nav {
     margin: 0;
+    font-family: 'Playfair Display', serif ;
 }
 
 h1 {
@@ -75,7 +77,6 @@ h1 {
 
 .headerFont{
     font-weight: bold;
-    font-family: 'Playfair Display', serif;
     font-size: 40px;
 }
 
@@ -194,29 +195,35 @@ nav {
 
 /* values section */
 .values{
-    display: flex;
+    /* display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: center; */
 }
 
 .valuesContent{
    display: flex;
-   align-items: center;
+   /* align-items: center; */
     position: relative;
     width: 100%;
     /* flex-direction: column; */
     font-family: inherit;
     border: 2px solid yellow;
    /* position: relative; */
-   margin-bottom: 20px;
+   
 }
+
+.valuesContent:not(:last-child){
+    margin-bottom: 20px;
+}
+
 .icon{
     color: var(--secoundary-color);
     width: 11%;
     height: 100px;
-    font-size: 50px;
+    font-size: 40px;
     float: left;
     border: 2px solid red;
+    padding: 1%;
 }
 
 .box{
@@ -224,6 +231,7 @@ nav {
     height: auto;
     float: right;
     border: 2px solid red;
+    /* padding: 5px; */
 }
 .valueHeader{
     /* float: right;
