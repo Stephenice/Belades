@@ -45,7 +45,8 @@ h3,
 h4,
 h5,
 h6,
-.main-nav {
+.main-nav,
+.logo {
     margin: 0;
     font-family: 'Playfair Display', serif ;
 }
@@ -100,7 +101,7 @@ nav {
 
 .logo {
     float: left;
-    height: 53px;
+    height: auto;
     /* width: auto; */
     border: 2px solid red;
 }
@@ -130,6 +131,10 @@ nav {
     text-decoration: none;
 }
 
+.main-nav li a:hover {
+    color: var(--secoundary-color);
+     text-decoration: none;
+ }
 .main-nav li.active a{
     border: 2px solid yellow;
     padding:  10px;
