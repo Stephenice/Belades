@@ -173,7 +173,7 @@ nav {
 }
 
 .banner {
-    background: url(../images/banner.jpg) no-repeat center top;
+    background: url(../images/banner.jpg) no-repeat center ;
     display: block;
     /* background-position: center;  */
     height: 400px;
@@ -356,6 +356,13 @@ nav {
     
 }
 
+.about, col,.about_img {
+    border: 2px solid blue;
+}
+
+.about_img{
+   
+}
 
 /* end of about */
 
@@ -368,6 +375,10 @@ footer {
     background: var(-primary-color);
     color: #ffffff;
     padding: 10px;
+    position: absolute;
+    /* top: 100%; */
+    bottom: 0;
+    width: 100%;
 }
 
 .center {
