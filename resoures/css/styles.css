@@ -84,8 +84,9 @@ h1 {
 }
 
 p{
-    line-height: 1.6;
-    margin: 5px;
+    line-height: 1.4;
+    /* margin: 5px; */
+    /* font-weight: 400; */
 }
 
 
@@ -218,8 +219,8 @@ nav {
 }
 
 .col p {
-    font-size: 90%;
-    line-height: 145%;
+    /* font-size: 90%;
+    line-height: 145%; */
 }
 
 
@@ -366,11 +367,11 @@ nav {
     
 }
 
-.about, col,.about_img,.about_container,.about_content, .row{
-    /* border: 2px solid blue; */
+.about, col,.about_img,.about_container,.about_content, .service_container,.row{
+    border: 2px solid blue;
 }
 
-.child{
+.child, .services{
     border: 2px solid rgb(231, 69, 110);
 }
 
@@ -411,6 +412,42 @@ nav {
 
 
 /* end of about */
+
+
+/* services  */
+.service{
+    
+   
+}
+
+.service_container{
+  width: 32%; 
+  height: auto;
+  float: left;
+  /* margin-right: 20px; */
+}
+
+.service_container:not(:last-child){
+    margin-right: 22.5px;
+}
+
+.service_img{
+  width: 100%;
+}
+
+.service_img img{
+    width: 100%;
+}
+
+.service_contents{
+    align-items: center;
+    text-align: center;
+}
+
+.service_{
+    margin-bottom: 40px;
+}
+/* end services */
 
 /* footer */
 
