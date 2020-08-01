@@ -114,6 +114,9 @@ p{
     font-size: 40px;
 }
 
+a{
+    text-decoration: none;
+}
 /* -----reusable code end ----*/
 
 
@@ -124,28 +127,27 @@ header {
     width: 100wv;
     position: relative;
     overflow: hidden;
-    border: 2px solid red;
+   
 }
 
 nav {
     display: block;
-    border: 2px solid red;
+    padding: 10px 0;
 }
 
 .logo {
     float: left;
     height: auto;
-    /* width: auto; */
-    border: 2px solid red;
+}
+
+.logoB{
+    color: var(--secoundary-color);
+
 }
 
 .main-nav {
     float: right;
-    /* display: inline-block; */
     list-style: none;
-    /* margin-top: 20px ; */
-    border: 2px solid red;
- 
 }
 
 .main-nav li {
@@ -189,7 +191,6 @@ nav {
     -ms-background-size: cover;
     position: relative;
     overflow: hidden;
-    /* background-attachment: fixed; */
     opacity: 1;
 }
 
@@ -200,11 +201,7 @@ nav {
 /* about us */
 
 .aboutus {
-    /* border: 2px solid red; */
-}
-
-.col {
-    /* border: 2px solid blue; */
+    
 }
 
 .col h1, h1 {
@@ -212,24 +209,14 @@ nav {
 }
 
 .col p {
-    /* font-size: 90%;
-    line-height: 145%; */
+    
 }
-
 
 /* end about us  */
 
-.know {
-    /* border: 2px solid blue; */
-}
 
 
 /* values section */
-.values{
-    /* display: flex;
-    flex-direction: row;
-    align-items: center; */
-}
 
 .valuesContent{
    display: flex;
@@ -264,15 +251,8 @@ nav {
     /* border: 2px solid red; */
     /* padding: 5px; */
 }
-.valueHeader{
-    /* float: right;
-    width: 75%; */
-    }
 
-.valueWord{
 
-    }
-    
 .valuesContainer{
     background-color: rgb(214, 236, 253, 0.2);
     /* border: 2px solid blue; */
@@ -329,9 +309,6 @@ nav {
 
 .banner_template::before,
 .box2::before{
-/*    
-    background: #000;
-    opacity: 1; */
     content: "";
     background: rgba(6, 14, 21, 0.55);
   position: absolute;
@@ -362,7 +339,7 @@ nav {
 }
 
 .about, col,.about_img,.about_container,.about_content, .service_container,.row{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 
 .child, .services{
