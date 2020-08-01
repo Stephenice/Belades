@@ -198,6 +198,48 @@ nav {
 /* end banner */
 
 
+
+
+/* cross word */
+.subtitle{
+    margin: 0 0 2em 0;
+    line-height: 1;
+    /* color: #636e72; */
+    /* font-style: italic; */
+    /* font-size: 14px; */
+    /* word-spacing: 4px; */
+    /* border: 2px solid red; */
+    /* height: auto; */
+}
+
+.cross span{
+    position: relative;
+    display: inline-block;
+}
+
+.cross span::before,
+.cross span::after{
+    content: " ";
+    position: absolute;
+    height: 5px;
+    border-bottom: 2px solid var(--secoundary-color);
+    border-top: 1px solid var(--secoundary-color);
+    top: 10px;
+    width: 100px;
+    
+}
+
+.cross span::before{
+    right: 100%;
+    margin-right: 15px;
+}
+
+.cross span::after{
+    left: 100%;
+    margin-left: 15px;
+}
+ /* end cross word */
+
 /* about us */
 
 .aboutus {
@@ -357,7 +399,7 @@ nav {
     width: 58%;
     height: auto;
     float: left;
-    padding: 10px 0 0 10px;
+    padding: 10px 10px 10px 20px;
 }
 
 .about_img {
