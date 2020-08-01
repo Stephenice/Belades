@@ -111,7 +111,22 @@ p{
 
 .headerFont{
     /* font-weight: bold; */
+    position: relative;
     font-size: 40px;
+}
+
+.headerFont::after{
+    /* font-weight: bold; */
+    position: absolute;
+    color: var(--secoundary-color);
+    content: " ";
+    position: absolute;
+    height: 7px;
+    border-bottom: 5px solid var(--secoundary-color);
+    /* border-top: 1px solid var(--secoundary-color); */
+    top: 165px;
+    left: 300px;
+    width: 6px;
 }
 
 a{
@@ -138,11 +153,22 @@ nav {
 .logo {
     float: left;
     height: auto;
+   
 }
 
 .logoB{
     color: var(--secoundary-color);
+    /* font-weight: bold; */
+}
 
+/* .logoN{
+    color: var(--secoundary-color);
+} */
+
+.logoC{
+    display: block;
+    font-size: 14px;
+    color: var(--primary-color);
 }
 
 .main-nav {
