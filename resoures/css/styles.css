@@ -168,20 +168,13 @@ nav {
     color: var(--secoundary-color);
      text-decoration: none;
  }
+
 .main-nav li.active a{
-    border: 2px solid yellow;
-    padding:  10px;
-    color: #ffffff;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    background-color: var(--primary-color);
+    color: var(--secoundary-color);
 }
-.active a{
+/* .active a{
     color: #ffffff;
-}
+} */
 
 .banner {
     background: url(../images/banner.jpg) no-repeat center ;
@@ -334,7 +327,8 @@ nav {
     
 }
 
-.banner_template::before{
+.banner_template::before,
+.box2::before{
 /*    
     background: #000;
     opacity: 1; */
@@ -448,6 +442,76 @@ nav {
     margin-bottom: 40px;
 }
 /* end services */
+
+/* contact us */
+.contactBox{
+    padding-left: 10px;
+    /* display: flex;
+    flex-direction: column; */
+    /* align-items: space-between; */
+
+}
+input[type=text]{
+    height: 40px;
+}
+
+textarea{
+height: 150px;
+}
+
+input[type=text],
+textarea{
+ 
+    width: 400px;
+    margin-bottom: 20px;
+    border: 2px solid var(--gray);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-size: 18px;
+}
+
+input[placeholder],
+textarea{
+    padding-left: 10px;
+
+}
+
+input[type=Submit]{
+    width: 200px;
+    height: ;
+    padding: 10px;
+    font-size: 18px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-weight: bold;
+
+}
+
+.box2{
+    background: url(../images/c2.jpg) no-repeat center;
+    padding: 0;
+    height: 470px;
+
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    position: relative;
+    overflow: hidden;
+    /* background-attachment: fixed; */
+    /* background: #000; */
+    /* opacity: 0.3; */
+    z-index: 0;
+    color: #ffffff;
+    
+}
+/* end contact us */
 
 /* footer */
 
