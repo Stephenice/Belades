@@ -526,7 +526,7 @@ textarea{
 
 input[type=Submit]{
     width: 200px;
-    height: ;
+    height: auto;
     padding: 10px;
     font-size: 18px;
     -webkit-border-radius: 5px;
@@ -534,9 +534,15 @@ input[type=Submit]{
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
     font-weight: bold;
+    background: var(--secoundary-color);
+    color: var(--white);
 
 }
-
+input[type=Submit]:hover{
+    cursor: pointer;
+    background: var(--primary-color);
+    color: var(--white);
+}
 .box2{
     background: url(../images/c2.jpg) no-repeat center;
     padding: 0;
@@ -556,6 +562,8 @@ input[type=Submit]{
     color: #ffffff;
     
 }
+
+
 /* end contact us */
 
 /* footer */
