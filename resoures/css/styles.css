@@ -145,20 +145,37 @@ header {
    
 }
 
-nav {
-    display: block;
+.nav {
+    /* display: block; */
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    /* align-content: center; */
     padding: 10px 0;
+    border: 2px solid red;
+    align-items: center;
+
+    /* -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex; */
+    display: flex;
+    /* float: left; */
 }
 
+
 .logo {
-    float: left;
+    /* float: left; */
     height: auto;
-   
+    border: 2px solid red;
 }
 
 .logoB{
     color: var(--secoundary-color);
-    /* font-weight: bold; */
+    font-weight: bold;
+    font-size: 30px;
 }
 
 /* .logoN{
@@ -172,8 +189,10 @@ nav {
 }
 
 .main-nav {
-    float: right;
+    /* float: right; */
     list-style: none;
+    border: 2px solid red;
+    
 }
 
 .main-nav li {
