@@ -20,35 +20,10 @@
     .banner-content, .row { padding: 0 4%; }
     .col { width: 100%; }
 
-  
-
-        /* sticky */
-        .sticky .main-nav{
-            margin-top: 10px;
-         }
-         
-         .sticky .main-nav li a:link,
-         .sticky .main-nav li a:visited{
-          
-              padding: 10px 0;  
-         }
-         .sticky .moblie-nav-icon{
-           margin-top: 10px;
-        }
-         .sticky .moblie-nav-icon i{
-             color: #555;
-             font-weight: bold;
-         }
-        
-
-
-  
-
-
 }
 
 
-/* from 0 to 767 */
+/* from 0 to 480 */
 @media only screen and (max-width:480px){
 
     .banner {
@@ -62,5 +37,59 @@
     display: block;
     }
     section{ padding: 25px 0; }
+
+    .nav{
+         display: block; 
+    }
+
+    .mob_nav{
+        display: block; 
+         width: 100%; 
+        border: 2px solid blue;
+    }
+
+    .mob_logo{
+         width: 70%;
+        float: left; 
+         /* display: inline;  */
+    }
+    
+
+    .main-nav{
+        display: none;
+        float: right;
+        width: 100%;
+        text-align: center;
+        /* height: 300px; */
+    }
+
+    .mob_main-nav li{
+        display: block;
+        
+
+    }
+
+    .moblieBar{
+        display: block;
+        border: 2px solid blue;
+        float: right;
+        width: 30%; 
+        /* margin-bottom: 30%;  */
+        text-align: right;
+        cursor: pointer;
+    }
+
+    .main-nav{
+        /* display: block; */ 
+    }
+
+    .main-nav li {
+        /* display: flex;
+        flex-direction: column; */
+        /* display: block;
+        color: black; */
+    }
+
+
 
 }

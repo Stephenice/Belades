@@ -165,7 +165,10 @@ header {
     /* float: left; */
 }
 
+.moblieBar{
+    display: none;
 
+}
 .logo {
     /* float: left; */
     height: auto;
@@ -198,6 +201,7 @@ header {
 
 .main-nav li {
     display: inline-block;
+    /* display: none; */
     color: black;
    
 }
