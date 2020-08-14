@@ -40,12 +40,16 @@
 
     .nav{
          display: block; 
+         /* position: fixed;
+         top: 0;
+         left: 0; */
     }
 
     .mob_nav{
         display: block; 
          width: 100%; 
         border: 2px solid blue;
+        position: sticky;
     }
 
     .mob_logo{
@@ -61,6 +65,7 @@
         width: 100%;
         text-align: center;
         /* height: 300px; */
+        position: relative;
     }
 
     .mob_main-nav li{
@@ -79,9 +84,12 @@
         cursor: pointer;
     }
 
-    .main-nav{
-        /* display: block; */ 
+    .moblieBar{
+        font-size: 40px;
+        cursor: pointer;
     }
+
+   
 
     .main-nav li {
         /* display: flex;
