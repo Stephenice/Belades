@@ -98,6 +98,10 @@
         color: black; */
     }
 
+    .fix{
+        display: table;
+    }
+ 
 
 
 }

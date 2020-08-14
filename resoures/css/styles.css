@@ -109,6 +109,10 @@ p{
     visibility: hidden;
 }
 
+.fix{
+    display: none;
+}
+
 .headerFont{
     /* font-weight: bold; */
     position: relative;
@@ -144,6 +148,14 @@ header {
     overflow: hidden;
    
 }
+nav{
+    /* display: block;
+    position: fixed;
+    border: 2px solid yellow;
+    width: 100%;
+    margin-bottom: 80px;
+    z-index: 1; */
+}
 
 .nav {
     /* display: block; */
@@ -154,7 +166,6 @@ header {
     padding: 10px 0;
     border: 2px solid red;
     align-items: center;
-
     /* -ms-box-orient: horizontal;
     display: -webkit-box;
     display: -moz-box;
@@ -239,9 +250,9 @@ header {
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-    position: relative;
+    /* position: relative; */
     overflow: hidden;
-    opacity: 1;
+    /* opacity: 1; */
 }
 
 
