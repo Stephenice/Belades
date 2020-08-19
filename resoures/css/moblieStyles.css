@@ -101,6 +101,46 @@
     .fix{
         display: table;
     }
+
+    
+    h1 {
+    /* color: #ffffff; */
+    word-spacing: 4px;
+    font-weight: 150;
+    border: 2px solid blue;
+    
+    }
+
+    .cross span::before{
+       
+        margin-right: 10px;
+    }
+    
+    .cross span::after{
+        
+        margin-left: 5px;
+    }
+
+    .icon{
+        color: var(--secoundary-color);
+        width: 11%;
+        height: 100px;
+        font-size: 25px;
+        float: left;
+        padding: 1%;
+    }
+
+    .box{
+        width: 87%;
+        height: auto;
+        float: right;
+        
+    }
+    
+    .boxCenter{
+        margin: 5px;
+    }
+
  
 
 
