@@ -49,6 +49,8 @@ body {
     font-size: 20px;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
+    /* overflow-y: hidden; */
+    /* overflow: visible; */
 }
 
 
@@ -367,11 +369,23 @@ nav{
 .picSize {
     width: 100%;
     height: 500px;
+    /* z-index: 1; */
 }
+
+.center {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+  }
 
 .offCol{
     padding: 0;
     margin: 0 !important;
+    position: relative;
+    color: #ffffff;
+    z-index: 0;
 }
 
 .offCol2{
@@ -483,24 +497,35 @@ nav{
 
 
 /* services  */
-.service{
-    
-   
-}
+
 
 .service_container{
-  width: 32%; 
-  height: auto;
+  width: 260px;
+  height: auto ;
   float: left;
-  /* margin-right: 20px; */
+  /*margin-right: 20px;
+  */margin-bottom: 40px;
+  border: 2px solid #f8f9fa;
+  box-shadow: 0px 5px 5px 5px  #7c7c7c;
+  border-radius: 5px ;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  -ms-border-radius:5px;
+  -o-border-radius:5px;
 }
 
-.service_container:not(:last-child){
-    margin-right: 22.5px;
+.service_container:not(:nth-child(4n+0)){
+    margin-right: 25px;
 }
+
+.service_container:nth-child(3){
+    /* margin-right: 0; */
+}
+
 
 .service_img{
   width: 100%;
+  height: 100%;
 }
 
 .service_img img{
@@ -508,14 +533,44 @@ nav{
 }
 
 .service_contents{
-    align-items: center;
-    text-align: center;
+    padding: 5px;
+}
+
+.service_contents_one{
+    margin-bottom: 15px;
+    color: var(--primary-color);
+    font-size: 20px;
+   padding-left:10px ;
+}
+
+.service_contents_one h4{
+    display: inline;
+    
+}
+
+.icon2{
+    
+}
+
+
+
+.service_contents_two{
+    /* border-left: 5px solid var(--secoundary-color); */
+}
+
+.service_contents_two p{
+ padding-left: 5px;
+ border-left: 5px solid var(--secoundary-color);
+ /* text-align: justify; */
 }
 
 .service_{
     margin-bottom: 40px;
 }
 /* end services */
+
+
+
 
 /* contact us */
 .contactBox{
@@ -608,9 +663,10 @@ footer {
     /* top: 100%; */
     /* bottom: 0;
     width: 100%; */
+    position: relative;
 }
 
-.center {
+.center2 {
     text-align: center;
 }
 
