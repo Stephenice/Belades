@@ -502,16 +502,19 @@ nav{
 .service_container{
   width: 260px;
   height: auto ;
-  float: left;
+  /* float: left; */
   /*margin-right: 20px;
-  */margin-bottom: 40px;
+  */margin-bottom: 50px;
   border: 2px solid #f8f9fa;
   box-shadow: 0px 5px 5px 5px  #7c7c7c;
   border-radius: 5px ;
-  -webkit-border-radius:5px;
-  -moz-border-radius:5px;
-  -ms-border-radius:5px;
-  -o-border-radius:5px;
+  -webkit-border-radius: 5px ;
+  -moz-border-radius: 5px ;
+  -ms-border-radius: 5px ;
+  -o-border-radius: 5px ;
+  position: relative;
+  display: inline-block;
+  vertical-align: text-top;
 }
 
 .service_container:not(:nth-child(4n+0)){
@@ -539,7 +542,7 @@ nav{
 .service_contents_one{
     margin-bottom: 15px;
     color: var(--primary-color);
-    font-size: 20px;
+    font-size: 18px;
    padding-left:10px ;
 }
 
@@ -549,7 +552,7 @@ nav{
 }
 
 .icon2{
-    
+    display: inline;   
 }
 
 
@@ -562,6 +565,9 @@ nav{
  padding-left: 5px;
  border-left: 5px solid var(--secoundary-color);
  /* text-align: justify; */
+ /* text-justify: inter-character; */
+/* font-size: 16px;
+white-space: initial; */
 }
 
 .service_{
@@ -613,6 +619,7 @@ input[type=Submit]{
     height: auto;
     padding: 10px;
     font-size: 18px;
+    border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
@@ -620,8 +627,8 @@ input[type=Submit]{
     font-weight: bold;
     background: var(--secoundary-color);
     color: var(--white);
-
 }
+
 input[type=Submit]:hover{
     cursor: pointer;
     background: var(--primary-color);
