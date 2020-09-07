@@ -658,6 +658,25 @@ input[type=Submit]:hover{
 
 /* end contact us */
 
+
+/* gallery */
+.gallery_container{
+    /* display: inline-block; */
+}
+
+.gallery_container li{
+    width: 23%;
+    height: auto;
+    display: inline-block;
+}
+
+.gallery_container li img{
+    width: 100%;
+    height: 100%;
+}
+
+/* gallery end */
+
 /* footer */
 
 footer {
