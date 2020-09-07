@@ -665,7 +665,7 @@ input[type=Submit]:hover{
 }
 
 .gallery_container li{
-    width: 24%;
+    width: 19%;
     height: auto;
     display: inline-block;
     text-decoration: none;
@@ -674,8 +674,8 @@ input[type=Submit]:hover{
     
 }
 
-.gallery_container li:not(:nth-child(4n+0)){
-    margin-right: 5px;
+.gallery_container li:not(:nth-child(5n+0)){
+    margin-right: 10px;
 }
 
 
