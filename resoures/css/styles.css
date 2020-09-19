@@ -711,6 +711,10 @@ input[type=Submit]:hover{
     text-align: center;
 }
 
+.pagination a.active{
+    border: 2px solid red;
+}
+
 /* gallery end */
 
 /* footer */
