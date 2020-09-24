@@ -48,7 +48,7 @@
     .mob_nav{
         display: block; 
          width: 100%; 
-        border: 2px solid blue;
+        /* border: 2px solid blue; */
         position: sticky;
     }
 
@@ -76,7 +76,7 @@
 
     .moblieBar{
         display: block;
-        border: 2px solid blue;
+        /* border: 2px solid blue; */
         float: right;
         width: 30%; 
         /* margin-bottom: 30%;  */
@@ -107,7 +107,7 @@
     /* color: #ffffff; */
     word-spacing: 4px;
     font-weight: 150;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     
     }
 
@@ -141,7 +141,11 @@
         margin: 5px;
     }
 
- 
-
+    .mobli_box{
+        width: 100vw;
+        height: auto;
+        float: left;
+        border-bottom: 4px solid var( --indigo);
+    }
 
 }
