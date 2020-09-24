@@ -176,6 +176,7 @@ nav{
     display: -webkit-flex; */
     display: flex;
     /* float: left; */
+    /* border-bottom: 4px solid var( --indigo); */
 }
 
 .moblieBar{
