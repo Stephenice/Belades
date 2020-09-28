@@ -210,7 +210,7 @@
     .gallery_container li:not(:nth-child(5n+0)){
         margin-right: 0;
     }
-
+/* contact page */
     .box2{
         height: 330px;
         margin-bottom: 20px !important;
@@ -219,18 +219,43 @@
 
     .contactBox{
         padding-left: 0px;
-        /* display: flex;
-        flex-direction: column; */
-        /* align-items: space-between; */
-    
+     }
+
+
+     input[type=text],
+     textarea{
+       width: 100%;
+      
+      }
+
+      input[type=Submit]{
+        width: 100%;
+        
     }
     
 
-    
+
+
+      
 }
 
 
 /* from 0 to 480 */
 @media only screen and (max-width:320px){
+
+    /* contact page */
+    input[type=text],
+    textarea{
+      width: 100%;
+    }
+
+    input[type=Submit]{
+        width: 100%;
+        
+    }
+
+    .contactBox{
+        padding-left: 0px;
+     }
 
 }
