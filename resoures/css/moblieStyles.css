@@ -147,5 +147,46 @@
         float: left;
         border-bottom: 4px solid var( --indigo);
     }
+    
+    .picSize{
+        width: 100%;
+        height: 200px;
+    }
+
+    /* about page */
+    .about_content{
+        width: 100%;
+      
+    }
+
+    .about_img{
+        display: none;
+        text-align: justify;
+    }
+
+    /* services page */
+    .service_container{
+        /* the width could be in % unit- 260px */
+      width: 100%;
+   
+    }
+
+    .service_container:not(:nth-child(4n+0)){
+        margin-right: 0;
+    }
+
+    .service_img{
+        width: 100%;
+        height: 50%;
+      }
+
+      .row{
+          border: 2px solid red;
+          max-width: 480px;
+          margin: 0 auto;
+        }
+        
+      /* gallery */
+
 
 }

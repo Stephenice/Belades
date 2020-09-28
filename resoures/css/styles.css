@@ -513,7 +513,8 @@ nav{
   height: auto ;
   /* float: left; */
   /*margin-right: 20px;
-  */margin-bottom: 50px;
+  */
+  margin-bottom: 50px;
   border: 2px solid #f8f9fa;
   box-shadow: 0px 5px 5px 5px  #7c7c7c;
   border-radius: 5px ;
