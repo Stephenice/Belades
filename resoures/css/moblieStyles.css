@@ -145,7 +145,7 @@
         width: 100vw;
         height: auto;
         float: left;
-        border-bottom: 4px solid var( --indigo);
+        border-bottom: 4px solid var( --primary-color);
     }
     
     .picSize{
@@ -233,10 +233,6 @@
         
     }
     
-
-
-
-      
 }
 
 
