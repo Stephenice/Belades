@@ -9,6 +9,10 @@
 
     body{font-size: 18px;}
     section{ padding: 60px 0;}
+    .headerFont::after{
+        display: none;
+     }
+ 
 
 
 }
@@ -20,42 +24,59 @@
     .banner-content, .row { padding: 0 4%; }
     .col { width: 100%; }
 
+    .headerFont::after{
+        display: none;
+     }
+ 
+
+}
+
+
+
+
+/* from 0 to 550 */
+@media only screen and (max-width:550px){
+    .headerFont::after{
+        display: none;
+     }
+ 
+      
 }
 
 
 /* from 0 to 480 */
 @media only screen and (max-width:480px){
 
+    .headerFont::after{
+        display: none;
+     }
+ 
+
     .banner {
         height: 200px;
         width: 100%;
-        
         opacity: 1;
     }
 
     .valuesContainer{
     display: block;
     }
+
     section{ padding: 25px 0; }
 
     .nav{
          display: block; 
-         /* position: fixed;
-         top: 0;
-         left: 0; */
     }
 
     .mob_nav{
         display: block; 
          width: 100%; 
-        /* border: 2px solid blue; */
         position: sticky;
     }
 
     .mob_logo{
          width: 70%;
         float: left; 
-         /* display: inline;  */
     }
     
 
@@ -233,11 +254,18 @@
         
     }
     
+    
 }
 
 
-/* from 0 to 480 */
+/* from 0 to 320 */
 @media only screen and (max-width:320px){
+
+    html,
+    body {
+    font-size: 16px;
+    }
+
 
     /* contact page */
     input[type=text],
@@ -253,5 +281,38 @@
     .contactBox{
         padding-left: 0px;
      }
+
+     .headerFont::after{
+       display: none;
+    }
+
+    .headerFont{
+        /* font-weight: bold; */
+        position: relative;
+        font-size: 25px;
+    }
+
+    h1 {
+       
+        font-weight: 200;
+        line-height: 1.4;
+        font-weight: bold;
+    }
+
+    .cross span::before,
+     .cross span::after{
+    width: 70px;
+    
+    }
+
+    .cross span::before{
+        right: 95%;
+        margin-right: 10px;
+    }
+
+    .cross span::after{
+        left: 95%;
+        margin-left: 10px;
+    }
 
 }
