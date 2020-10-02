@@ -17,7 +17,7 @@
 
 }
 
-/* from 481 to 767 */
+/* from 550 to 767 */
 @media only screen and (max-width:767px){
     body{ font-size: 17px; }
     section{ padding: 30px 0; }
@@ -27,6 +27,11 @@
     .headerFont::after{
         display: none;
      }
+
+     .row {
+        max-width: 760px;
+        margin: 0 auto;
+    }
  
 
 }
@@ -34,7 +39,7 @@
 
 
 
-/* from 0 to 550 */
+/* from 481 to 550 */
 @media only screen and (max-width:550px){
     .headerFont::after{
         display: none;
