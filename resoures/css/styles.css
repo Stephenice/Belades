@@ -250,7 +250,7 @@ nav{
 }
 
 .banner {
-    background: url(../images/10.57.39.jpeg) no-repeat center ;
+    background: url(../images/bg.jpeg) no-repeat center ;
     display: block;
     /* background-position: center;  */
     height: 400px;
@@ -407,7 +407,7 @@ nav{
 /* about */
 
 .banner_template {
-    background: url(../images/10.57.39.jpeg) no-repeat center;
+    background: url(../images/bg.jpeg) no-repeat center;
     display: block;
     /* background-position: center;  */
     height: 250px;
